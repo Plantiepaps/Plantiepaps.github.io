@@ -1,0 +1,93 @@
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#ttaffichages {
+  display: flex;
+  justify-content: center;
+  width: 280px;
+}
+
+.affichage {
+  background-color: #3c321d;
+  border-radius: 0.5em;
+  width: 260px;
+  height: 40px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 10px;
+}
+
+#nombre {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  color: #ffffff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#ttcalculatrice {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2em;
+  border: solid #3c321d;
+  border-width: 5px;
+  width: 320px;
+  height: 480px;
+}
+
+#tttouches {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5em;
+  background-color: #3c321d;
+}
+
+.clavier {
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.touche {
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 60px;
+  min-height: 60px;
+  margin: 5px;
+  font-size: larger;
+  border-radius: 0.5em;
+  font-weight: bold;
+}
+
+.touche2 {
+  min-width: 130px;
+  min-height: 60px;
+  margin: 5px;
+  font-size: larger;
+  background-color: #a08a5b;
+  border-radius: 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.calcul {
+  background-color: #afa185;
+}
+
+#effacer {
+  background-color: #a36746;
+}
